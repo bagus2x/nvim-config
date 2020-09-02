@@ -1,7 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-" < Other Plugins, if they exist >
-
 Plug 'fatih/vim-go'
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
