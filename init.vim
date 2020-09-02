@@ -79,9 +79,14 @@ let g:go_def_mapping_enabled = 0
 "let g:go_fmt_autosave = 1
 let g:go_fmt_command = "gofmt"
 
+set nowrap
 set number
+set mouse=a
 
-inoremap {<CR> {<CR>}<Esc>ko<tab>
-inoremap [<CR> [<CR>]<Esc>ko<tab>
-inoremap (<CR> (<CR>)<Esc>ko<tab>
-
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
