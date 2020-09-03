@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/bagus2x/.yarn'
+let g:netrw_dirhist_1='/home/bagus2x/go/src/github.com/bagus2x/hello-world/created'
