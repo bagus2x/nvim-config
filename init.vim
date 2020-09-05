@@ -136,7 +136,7 @@ let g:session_command_aliases = 1
 syntax on
 set ruler
 set number
-
+set mouse=a
 let no_buffers_menu=1
 
 set mousemodel=popup
@@ -158,7 +158,6 @@ else
   let g:indentLine_char = '┆'
   let g:indentLine_faster = 1
 
-  
 endif
 
 
